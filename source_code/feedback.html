@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Source Code Feedback</title>
+    <link rel="Stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icon.png">
+  </head>
+  <body id="indexbody">
+    <header>      
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+      <div id="banner">
+        <div class="mobileview">
+          <a href="index.html"><img class="logo" src="images/logo.png" alt="Source Code Logo"></a>
+        </div>
+        <div class="otherview">
+          <a href="index.html"><img class="logo" src="images/logolarge.png" alt="Source Code Logo"></a>
+        </div>
+        <h1 id="address">2342 Hatch Blvd<br>Holmen, WI</h1>
+        <h1 id="phone"><a href="tel:5555555555">481.516.2342</a></h1>
+        <h1 id="hours">Open:<br>11:00 am - 2:00 am</h1>
+      </div>
+    </header>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a>
+          <ul>
+            <li> <a href="food.html">Food</a></li>
+            <li> <a href="drinks.html">Drinks</a></li>
+          </ul>
+        </li>
+        <li><a href="rewards.html">Rewards</a></li>
+        <li><a href="catering.html">Catering</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a>
+          <ul>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="employment.html">Employment</a></li>
+          </ul>
+        </li>
+        <li><a href="aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h3>Feedback!</h3>
+      <p>
+        We care about hearing from our customers. Please let us know how your visit was. 
+      </p>
+      <div id="formdiv">
+        <form method="post" action="http://www.youmakeithappen.net/instruction/html/contact.php">
+          <label for="name">Full Name</label>
+          <input type="text" name="name" id="myName" size="25" required="required"><br><br>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="myEmail" size="25" required="required"><br><br>
+          <label for="myCode">Receipt Code</label>
+          <input type="text" name="myCode" id="myCode" size="25" required="required"><br><br>
+          Comments:<br>
+          <textarea name="message" id="myComments"></textarea><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </main>
+    <footer id="footer">
+      <a id="twitter" href="https://www.twitter.com" target="_blank"><img src="images/twitterlogo.png" width="50" height="50" alt="Twitter Logo"></a>
+      <a id="facebook" href="https://www.facebook.com" target="_blank"><img src="images/facebooklogo.png" width="50" height="50" alt="Facebook Logo"></a>
+      <a id="instagram" href="https://www.instagram.com" target="_blank"><img src="images/instagramlogo.png" width="50" height="50" alt="Instagram Logo"></a>
+      <div id="sitemap">
+        <h6>Sitemap</h6>
+        <ul id="leftmap">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="food.html">Food</a></li>
+          <li><a href="drinks.html">Drinks</a></li>
+          <li><a href="rewards.html">Rewards</a></li>
+        </ul>
+        <ul id="rightmap">
+          <li><a href="catering.html">Catering</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="employment.html">Employment</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+      </div>
+      <div id="footerlogo">
+        <a href="index.html"><img class="logo" src="images/logolarge.png" alt="Source Code Logo"></a>
+      </div>
+      <div id="copyright">
+        <p><a href="mailto:kugel.whitney@gmail.com">info@SourceCode.com</a></p>
+        <p>&copy;2020 Source Code</p>
+      </div>
+    </footer>
+    <script src="js/sourcecode.js"></script>
+  </body>
+
+</html>
